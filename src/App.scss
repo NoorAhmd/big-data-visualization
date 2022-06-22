@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw !important;
+  height: 100vh !important;
+  .navbar{
+    width: 100vw;
+    height: 70px;
+  }
+  .container{
+    display: flex;
+    height: 100vh !important;
+    width: 100vw;
+
+    .sidebar {
+      flex: 1;
+    }
+    .charts{
+      flex: 2;
+      align-items: center ;
+    }
+
+  }
+}
